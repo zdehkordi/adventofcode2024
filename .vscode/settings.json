@@ -4,7 +4,8 @@
         "**/.pytest_cache": true
     },
     "python.testing.pytestArgs": [
-        "aoc24"
+        "aoc24",
+        "--ignore=aoc24/day0"
     ],
     "python.testing.unittestEnabled": false,
     "python.testing.pytestEnabled": true
