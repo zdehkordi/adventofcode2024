@@ -1,4 +1,4 @@
-from .day1 import *
+from .sol import *
 
 def test_parse():
     parse('aoc24/day1/ex.txt') == (
