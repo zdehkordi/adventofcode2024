@@ -37,9 +37,21 @@ def test_middle():
     assert middle([97, 13, 75, 29, 47]) == 75
 
 
+def test_fix():
+    assert fix({29: [13], 61: [29]}, [61, 13, 29]) == [61, 29, 13]
+
+
 def test_gold_ex():
     assert solve(f"aoc24/day{DAY}/ex.txt") == 143
 
 
 def test_gold_in():
     assert solve(f"aoc24/day{DAY}/in.txt") == 5452
+
+
+def test_gold_ex_2():
+    assert solve2(f"aoc24/day{DAY}/ex.txt") == 123
+
+
+def test_gold_in_2():
+    assert solve2(f"aoc24/day{DAY}/in.txt") == 4598
