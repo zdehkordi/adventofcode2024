@@ -2,6 +2,7 @@ from pathlib import Path
 
 from .sol import *
 
+
 DAY = Path(__file__).parent.name.split("day")[1]
 
 
